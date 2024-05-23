@@ -21,7 +21,20 @@ p {
     font-family: 'Times New Roman';
     word-spacing: 2px;
     font-size: 15px;
-    color: darkslategray;
+    color: rgb(25, 31, 31);
+}
+
+q {
+    font-style: italic;
+    border-left: black solid 2px;
+}
+
+.villager {
+    border-color: red;
+}
+
+.farmer {
+    border-color: blue;
 }
 
 a {
