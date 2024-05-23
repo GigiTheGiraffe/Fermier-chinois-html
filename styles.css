@@ -1,3 +1,7 @@
+header>h1 {
+    background-color: yellow;
+} 
+
 body {
     max-width: 90%;
     margin: auto;
@@ -29,12 +33,61 @@ q {
     border-left: black solid 2px;
 }
 
+li:first-child {
+    background-image: url('bien.png');
+    background-repeat: no-repeat;
+    padding-right: 50px;
+    background-size: contain;
+    background-position: right;
+    width: 250px;
+}
+
+li:nth-child(2) {
+    background-image: url('mal.png');
+    background-repeat: no-repeat;
+    padding-right: 50px;
+    background-size: contain;
+    background-position: right;
+    width: 250px;
+}
+
+li:nth-last-of-type(2) {
+    background-image: url('chat.png');
+    background-repeat: no-repeat;
+    padding-right: 50px;
+    background-size: contain;
+    background-position: right center;
+    width: 250px;
+}
+
 .villager {
     border-color: red;
 }
 
 .farmer {
     border-color: blue;
+}
+
+.b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.g {
+    color: green;
+    text-transform: capitalize;
+}
+
+thead tr {
+    background-color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: grey;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white; 
 }
 
 a {
@@ -47,4 +100,8 @@ a:hover {
 
 a:visited {
     color: blueviolet;
+}
+
+#first-paragraphe {
+    font-weight: bold;
 }
