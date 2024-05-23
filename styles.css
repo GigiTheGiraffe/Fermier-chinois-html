@@ -1,3 +1,22 @@
+body {
+    max-width: 90%;
+    margin: auto;
+    background-color: linear-gradient(285deg, #a600ff, #ff6600);
+    background-image: url('https://img.freepik.com/free-vector/flat-chinese-new-year-background_23-2149232077.jpg?t=st=1716466283~exp=1716469883~hmac=04784b0a9c3cc4a86e3e33906374ac372973bef916dc8855ce87974085116a21&w=1800');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+}
+
+blockquote {
+    width: 50%;
+    font-size: 1.6em;
+    background-color: lightgray;
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+    margin: 80px auto;
+}
+
 p {
     font-family: 'Times New Roman';
     word-spacing: 2px;
