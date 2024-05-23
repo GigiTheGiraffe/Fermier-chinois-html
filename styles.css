@@ -1,0 +1,18 @@
+p {
+    font-family: 'Times New Roman';
+    word-spacing: 2px;
+    font-size: 15px;
+    color: darkslategray;
+}
+
+a {
+    color:brown;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:visited {
+    color: blueviolet;
+}
