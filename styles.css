@@ -12,6 +12,25 @@ body {
     background-size: cover;
 }
 
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: start; 
+    justify-content: flex-start;
+}
+
+img {
+    max-width: 495px;
+}
+
+p, ul, h2 {
+    order: 1;
+    max-width: 50%;
+    font-size: 1.2em;
+    flex: 2;
+}
+
 blockquote {
     width: 50%;
     font-size: 1.6em;
